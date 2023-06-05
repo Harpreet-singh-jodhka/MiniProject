@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@500&family=Poppins:wght@400;700&display=swap');
+
+
+.box1 {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+    background-color: #ffcd9e;
+}
+
+.box1-left {
+    /* display: inline-block; */
+    width: 45%;
+    height: auto;
+    padding: 23px;
+    /* background-color: red; */
+}
+
+input {
+    padding: 11px 36px 11px 11px;
+    border: 3px solid black;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button {
+    margin-left: 5px;
+    color: white;
+    background-color: black;
+    padding: 11px 24px 11px 24px;
+    border: 3px solid purple;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.para {
+    color: grey;
+}
+
+.box1-right {
+    /* display: inline-block; */
+}
+
+.box1-right img {
+    height: 295px;
+    width: auto;
+    padding: 39px;
+}
+
+.white-color-para2 {
+    font-size: small;
+    margin-left: 20px;
+    color: white;
+}
+
+.input-placeholder {
+    font-size: 14px;
+}
+
+
+.box2 {
+    justify-content: space-between;
+    height: 238px;
+    background-color: #282828;
+    display: flex;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 1px 0 0px 0px;
+    padding: 4px;
+    font-size: 17px;
+
+}
+
+.box2 .right-area{
+    font-size: 17px;
+    width: 40%;
+    text-align: -webkit-right;
+    padding: 60px 138px 64px 0px;
+}
+.box2 .left-area{
+    width: 40%;
+    text-align: -webkit-left;
+    padding: 60px 0px 64px 138px;
+}
+nav ul{
+    margin: -6px 0px 0px -41px;
+}
+.right-area>div{
+    margin: -2px 0px 11px 0;
+}
+last-div{
+    margin-bottom: 2px;
+}
